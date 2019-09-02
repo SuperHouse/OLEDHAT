@@ -1,14 +1,15 @@
-Voltage Regulator Hat for Raspberry Pi
-=======================================
-Designed by Nick Fryer and Jonathan Oxer
+OLED / Voltage Regulator Hat for Raspberry Pi
+==============================================
+Copyright 2019 SuperHouse Automation Pty Ltd www.superhouse.tv  
 
 FEATURES
 --------
 
-Supply power via screw terminals, 2.1mm DC jack, or the PoE header on
-Raspberry Pi 3 B+. Regulates down to 5V to supply the Raspberry Pi.
+ * 128x64 1.3" OLED with I2C interface.
+ * Menu buttons with I2C interface using MCP23017.
+ * Supply power via 2.1mm DC jack or the PoE header on Raspberry Pi 3
+   B+/4. Regulates down to 5V to supply the Raspberry Pi.
 
-I2C header and prototyping area.
 
 INSTALLATION
 ------------
@@ -17,6 +18,11 @@ available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
 navigate to the project.
+
+
+CREDITS
+-------
+Designed by Jonathan Oxer <jon@oxer.com.au>
 
 
 DISTRIBUTION
