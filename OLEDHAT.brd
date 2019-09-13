@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -188,7 +188,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:VAEQAFlSRrOdB6dmx4HnAA" pcbguid="928f984f-9571-4401-bf39-21e8ee626e63" lastpulledtime="" lastsyncedchangeguid="074e3828-7f16-e08a-58b9-aba61d845110"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:VAEQAFlSRrOdB6dmx4HnAA" pcbguid="928f984f-9571-4401-bf39-21e8ee626e63" lastpulledtime="" lastsyncedchangeguid="bcdb9643-0627-d687-c9e8-09d442912492"/>
 <plain>
 <wire x1="0" y1="54" x2="2" y2="56" width="0" layer="20" curve="-90"/>
 <wire x1="2" y1="56" x2="62" y2="56" width="0" layer="20"/>
@@ -1454,22 +1454,22 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <contactref element="VR1" pad="2A"/>
 <contactref element="VR1" pad="2B"/>
 <contactref element="D1" pad="C"/>
-<wire x1="52.4" y1="44.375" x2="52.4" y2="47.05" width="1.016" layer="1"/>
-<wire x1="62" y1="32.35" x2="59.85" y2="34.5" width="1.016" layer="1"/>
-<wire x1="52.4" y1="41.1" x2="52.4" y2="44.375" width="1.016" layer="1"/>
-<wire x1="10.922" y1="44.02" x2="18.02" y2="44.02" width="1.016" layer="16"/>
-<wire x1="27.5" y1="48" x2="29.5" y2="46" width="1.016" layer="16"/>
-<wire x1="29.5" y1="46" x2="29.5" y2="43" width="1.016" layer="16"/>
-<wire x1="29.5" y1="43" x2="31.5" y2="41" width="1.016" layer="16"/>
-<wire x1="45.875" y1="44.375" x2="52.4" y2="44.375" width="1.016" layer="16"/>
-<wire x1="18.02" y1="44.02" x2="22" y2="48" width="1.016" layer="16"/>
-<wire x1="22" y1="48" x2="27.5" y2="48" width="1.016" layer="16"/>
-<wire x1="31.5" y1="41" x2="42.5" y2="41" width="1.016" layer="16"/>
-<wire x1="42.5" y1="41" x2="45.875" y2="44.375" width="1.016" layer="16"/>
-<wire x1="56.5" y1="34.5" x2="55.5" y2="35.5" width="1.016" layer="1"/>
-<wire x1="55.5" y1="35.5" x2="55.5" y2="38" width="1.016" layer="1"/>
-<wire x1="55.5" y1="38" x2="52.4" y2="41.1" width="1.016" layer="1"/>
-<wire x1="59.85" y1="34.5" x2="56.5" y2="34.5" width="1.016" layer="1"/>
+<wire x1="52.4" y1="44.375" x2="52.4" y2="47.05" width="1.27" layer="1"/>
+<wire x1="62" y1="32.35" x2="59.85" y2="34.5" width="1.27" layer="1"/>
+<wire x1="52.4" y1="41.1" x2="52.4" y2="44.375" width="1.27" layer="1"/>
+<wire x1="10.922" y1="44.02" x2="18.02" y2="44.02" width="1.27" layer="16"/>
+<wire x1="27.5" y1="48" x2="29.5" y2="46" width="1.27" layer="16"/>
+<wire x1="29.5" y1="46" x2="29.5" y2="43" width="1.27" layer="16"/>
+<wire x1="29.5" y1="43" x2="31.5" y2="41" width="1.27" layer="16"/>
+<wire x1="45.875" y1="44.375" x2="52.4" y2="44.375" width="1.27" layer="16"/>
+<wire x1="18.02" y1="44.02" x2="22" y2="48" width="1.27" layer="16"/>
+<wire x1="22" y1="48" x2="27.5" y2="48" width="1.27" layer="16"/>
+<wire x1="31.5" y1="41" x2="42.5" y2="41" width="1.27" layer="16"/>
+<wire x1="42.5" y1="41" x2="45.875" y2="44.375" width="1.27" layer="16"/>
+<wire x1="56.5" y1="34.5" x2="55.5" y2="35.5" width="1.27" layer="1"/>
+<wire x1="55.5" y1="35.5" x2="55.5" y2="38" width="1.27" layer="1"/>
+<wire x1="55.5" y1="38" x2="52.4" y2="41.1" width="1.27" layer="1"/>
+<wire x1="59.85" y1="34.5" x2="56.5" y2="34.5" width="1.27" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="J1" pad="3"/>
@@ -1515,14 +1515,14 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <signal name="N$1">
 <contactref element="SJ2" pad="1"/>
 <contactref element="J3" pad="1"/>
-<wire x1="58" y1="41.762" x2="58" y2="42.96" width="1.016" layer="1"/>
-<wire x1="58" y1="42.96" x2="60.23" y2="45.19" width="1.016" layer="1"/>
+<wire x1="58" y1="41.762" x2="58" y2="42.96" width="1.27" layer="1"/>
+<wire x1="58" y1="42.96" x2="60.23" y2="45.19" width="1.27" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="J3" pad="2"/>
 <contactref element="SJ1" pad="1"/>
-<wire x1="62" y1="44.42" x2="62.77" y2="45.19" width="1.016" layer="1"/>
-<wire x1="62" y1="41.762" x2="62" y2="44.42" width="1.016" layer="1"/>
+<wire x1="62" y1="44.42" x2="62.77" y2="45.19" width="1.27" layer="1"/>
+<wire x1="62" y1="41.762" x2="62" y2="44.42" width="1.27" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J1" pad="1"/>
@@ -1553,12 +1553,12 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <signal name="N$24">
 <contactref element="SJ1" pad="2"/>
 <contactref element="D1" pad="A"/>
-<wire x1="62" y1="36.65" x2="62" y2="40.238" width="1.016" layer="1"/>
+<wire x1="62" y1="36.65" x2="62" y2="40.238" width="1.27" layer="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="SJ2" pad="2"/>
 <contactref element="D2" pad="C"/>
-<wire x1="58" y1="36.65" x2="58" y2="40.238" width="1.016" layer="1"/>
+<wire x1="58" y1="36.65" x2="58" y2="40.238" width="1.27" layer="1"/>
 </signal>
 <signal name="GPA1">
 <contactref element="IC1" pad="22"/>

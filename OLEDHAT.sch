@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5071,7 +5071,7 @@ Socket</text>
 <text x="58.42" y="176.53" size="1.778" layer="94">Power Input</text>
 <wire x1="119.38" y1="104.14" x2="187.96" y2="104.14" width="0.3048" layer="97" style="longdash"/>
 <wire x1="119.38" y1="104.14" x2="119.38" y2="147.32" width="0.3048" layer="97" style="longdash"/>
-<text x="124.46" y="176.53" size="1.778" layer="94">Prototyping Area</text>
+<text x="124.46" y="176.53" size="1.778" layer="94">128x64 OLED Display</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <wire x1="119.38" y1="147.32" x2="119.38" y2="181.61" width="0.3048" layer="97" style="longdash"/>
 <wire x1="119.38" y1="147.32" x2="187.96" y2="147.32" width="0.3048" layer="97" style="longdash"/>
@@ -5598,12 +5598,11 @@ Socket</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,55.88,43.18,JP8,1,,,,"/>
-<approved hash="104,1,109.22,68.58,IC2,IN,VIN,,,"/>
-<approved hash="104,1,124.46,50.8,IC2,TGND,GND,,,"/>
-<approved hash="113,1,90.7627,150.15,JP4,,,,,"/>
-<approved hash="113,1,104.14,154.01,SJ1,,,,,"/>
-<approved hash="113,1,104.14,146.39,SJ2,,,,,"/>
+<approved hash="104,1,48.26,86.36,IC1,VDD,3.3V,,,"/>
+<approved hash="104,1,48.26,45.72,IC1,VSS,GND,,,"/>
+<approved hash="113,1,78.0627,160.31,J3,,,,,"/>
+<approved hash="113,1,91.44,164.17,SJ1,,,,,"/>
+<approved hash="113,1,91.44,156.55,SJ2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
